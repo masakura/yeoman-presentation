@@ -8,6 +8,9 @@ HTML5 Conference 2015 in 鹿児島で行うセッションの一つ Yeoman に�
 ### HTML5アプリではたくさんのツールを使う
 この部分ではHTML5アプリでたくさんのツールを使うことをアピールする。とにかく大変そう!
 
+* 全体的
+  - minifiy
+  - concat
 * JavaScript
   - TypeScript or CoffeeScript
   - JSHint/JSCS
@@ -18,9 +21,6 @@ HTML5 Conference 2015 in 鹿児島で行うセッションの一つ Yeoman に�
   - Sass/Compass
 * Images
   - imagemin
-* 全体的
-  - minifiy
-  - concat
 
 
 ### Yeoman の簡単な紹介
@@ -32,6 +32,8 @@ HTML5 Conference 2015 in 鹿児島で行うセッションの一つ Yeoman に�
 
 
 ### 実際に使ってみる
+Yeomanのツール群はNode.js/npが必要。
+
 一般的にはYoから紹介されることが多いけど、時間次第ではBowerからやる。
 
 `bower init`でプロジェクトを作成し、`bower install --save`でライブラリを持ってこれることをアピール。依存関係を解決してくれるので素敵!
@@ -51,9 +53,10 @@ Bowerが標準的になると、JavaScriptライブラリは細分化され、�
 
 
 ### いくつか Yeoman Generator を紹介
-* generator-angular
 * generator-backbone
+* generator-angular
 * generator-angular-fullstack
+* generator-angular-eggs
 
 
 ### できれば...
@@ -73,7 +76,8 @@ generator-graybullet-corodvaというのがあって、これを使うと Apache
 * エディターは割と何でもいい
   - Emmet!
   - JSHint/JSCS Linter とか
+  - EditorConfig
 
 
 ### 最後に
-Visual Studio 2015 から Bower や Grunt がサポートされるようですので、これからは Yeoman で開発をするのが当たり前になるんじゃないかなと思います!
+Visual Studio から Bower や Grunt がサポートされるようですので、これからは Yeoman で開発をするのが当たり前になるんじゃないかなと思います!
